@@ -1,1 +1,121 @@
 /* Сюди додавай стилі частинки Catalog */
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1181px;
+}
+
+.catalog-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0 0 75px;
+}
+
+.catalog-cards {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.catalog-card {
+  width: calc((100% - (25px * 2)) / 3);
+  background: #fbfbfb;
+  border-radius: 24px;
+  padding: 16px 16px 32px;
+}
+
+.catalog-img {
+  max-width: 100%;
+  border-radius: 24px;
+  margin-bottom: 32px;
+}
+
+.catalog-card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.catalog-yahts-name {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+  margin: 0;
+}
+
+.catalog-yahts-class {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #989899;
+  margin: 0;
+}
+
+.yahts-specifications {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 157px;
+}
+
+.yahts-categories {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.yahts-categorie {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #989899;
+  margin: 0;
+}
+
+.yahts-categories-values {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.yahts-categories-value {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+  margin: 0;
+}
+
+.catalog-button {
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  width: 179px;
+  height: 52px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+
+  background-color: transparent;
+  margin: 0 auto;
+}
