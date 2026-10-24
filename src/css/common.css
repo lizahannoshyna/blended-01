@@ -1,0 +1,21 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #fbfbfb;
+  background-color: #0e1823;
+}
+
+/* Скидання */
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
